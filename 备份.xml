@@ -1,0 +1,1824 @@
+<TaskerData sr="" dvi="1" tv="5.8.0.rc">
+	<dmetric>720.0,1344.0</dmetric>
+	<Profile sr="prof10" ve="2">
+		<cdate>1563753826008</cdate>
+		<edate>1563784445611</edate>
+		<flags>2</flags>
+		<id>10</id>
+		<mid0>36</mid0>
+		<mid1>9</mid1>
+		<nme>签到易信</nme>
+		<Time sr="con0">
+			<fh>0</fh>
+			<fm>8</fm>
+			<th>0</th>
+			<tm>8</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof14" ve="2">
+		<cdate>1563683116916</cdate>
+		<edate>1563780721306</edate>
+		<flags>2</flags>
+		<id>14</id>
+		<limit>true</limit>
+		<mid0>12</mid0>
+		<nme>天气更新</nme>
+		<Time sr="con0">
+			<fh>9</fh>
+			<fm>0</fm>
+			<rep>1</rep>
+			<repval>2</repval>
+			<th>23</th>
+			<tm>0</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof15" ve="2">
+		<cdate>1563683116923</cdate>
+		<edate>1399478077818</edate>
+		<flags>2</flags>
+		<id>15</id>
+		<mid0>13</mid0>
+		<nme>天气预报</nme>
+		<Time sr="con0">
+			<fh>8</fh>
+			<fm>5</fm>
+			<th>8</th>
+			<tm>5</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof16" ve="2">
+		<cdate>1563766930885</cdate>
+		<edate>1563784747152</edate>
+		<flags>2</flags>
+		<id>16</id>
+		<mid0>36</mid0>
+		<mid1>11</mid1>
+		<nme>返回键</nme>
+		<Time sr="con0">
+			<fh>0</fh>
+			<fm>18</fm>
+			<th>0</th>
+			<tm>18</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof3" ve="2">
+		<cdate>1563719226384</cdate>
+		<edate>1563782336144</edate>
+		<flags>2</flags>
+		<id>3</id>
+		<mid0>2</mid0>
+		<nme>翻转静音</nme>
+		<State sr="con0" ve="2">
+			<code>120</code>
+			<Int sr="arg0" val="1"/>
+		</State>
+	</Profile>
+	<Profile sr="prof4" ve="2">
+		<cdate>1563759882867</cdate>
+		<edate>1563784465645</edate>
+		<flags>2</flags>
+		<id>4</id>
+		<mid0>36</mid0>
+		<mid1>8</mid1>
+		<nme>电信签到</nme>
+		<Time sr="con0">
+			<fh>0</fh>
+			<fm>15</fm>
+			<th>0</th>
+			<tm>15</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof5" ve="2">
+		<cdate>1563740893483</cdate>
+		<edate>1563764219866</edate>
+		<flags>2</flags>
+		<id>5</id>
+		<limit>true</limit>
+		<mid0>36</mid0>
+		<nme>亮屏</nme>
+		<Time sr="con0">
+			<fh>4</fh>
+			<fm>32</fm>
+			<th>4</th>
+			<tm>32</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof7" ve="2">
+		<cdate>1563683080815</cdate>
+		<edate>1563695799616</edate>
+		<flags>2</flags>
+		<id>7</id>
+		<mid0>6</mid0>
+		<nme>整点报时</nme>
+		<Time sr="con0">
+			<fh>8</fh>
+			<fm>0</fm>
+			<rep>1</rep>
+			<repval>1</repval>
+			<th>23</th>
+			<tm>59</tm>
+		</Time>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1563683020577</cdate>
+		<mdate>1563888559615</mdate>
+		<name>基底</name>
+		<pids>7,3,5,10,4,16</pids>
+		<scenes>web</scenes>
+		<tids>36,6,68,2,9,8,11,19</tids>
+		<Img sr="icon" ve="2">
+			<nme>mw_action_home</nme>
+		</Img>
+	</Project>
+	<Project sr="proj1" ve="2">
+		<cdate>1399478146529</cdate>
+		<mdate>1563683116923</mdate>
+		<name>天气预报</name>
+		<pids>14,15</pids>
+		<psort>EnabledAlpha</psort>
+		<tids>12,13</tids>
+	</Project>
+	<Project sr="proj2" ve="2">
+		<cdate>1531538443023</cdate>
+		<mdate>1563683142200</mdate>
+		<name>File Browser</name>
+		<scenes>Text Editor,File Browser</scenes>
+		<tids>47,57</tids>
+		<Img sr="icon" ve="2">
+			<nme>mw_file_folder</nme>
+		</Img>
+	</Project>
+	<Scene sr="sceneFile Browser">
+		<cdate>1531498161345</cdate>
+		<edate>1563847656061</edate>
+		<gridSize>20</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>1284</heightPort>
+		<nme>File Browser</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>699</widthPort>
+		<ListElement sr="elements0">
+			<flags>6</flags>
+			<geom>0,0,699,1284,232,1059,990,200</geom>
+			<itemclickTask>56</itemclickTask>
+			<Str sr="arg0" ve="3">Panel</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">%Listedfiles</Str>
+			<Int sr="arg3" val="0"/>
+			<Scene sr="arg4">
+				<Scene sr="val">
+					<cdate>1531498446912</cdate>
+					<edate>1531498446912</edate>
+					<gridSize>10</gridSize>
+					<heightLand>225</heightLand>
+					<heightPort>66</heightPort>
+					<nme>Builtin Item Layout</nme>
+					<widthLand>990</widthLand>
+					<widthPort>699</widthPort>
+					<ImageElement sr="elements0" ve="2">
+						<flags>1</flags>
+						<geom>611,0,85,66,765,21,204,183</geom>
+						<Str sr="arg0" ve="3">Icon</Str>
+						<Img sr="arg1" ve="2">
+							<nme>mw_navigation_check</nme>
+						</Img>
+						<Int sr="arg2" val="255"/>
+					</ImageElement>
+					<TextElement sr="elements1" ve="3">
+						<flags>5</flags>
+						<geom>92,0,520,66,150,21,594,183</geom>
+						<Str sr="arg0" ve="3">Label</Str>
+						<Str sr="arg1" ve="3"/>
+						<Int sr="arg2" val="10"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="3"/>
+						<Int sr="arg7" val="0"/>
+						<Int sr="arg8" val="0"/>
+						<RectElement sr="background">
+							<flags>4</flags>
+							<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+							<Str sr="arg0" ve="3"/>
+							<Int sr="arg1" val="0"/>
+							<Str sr="arg2" ve="3"/>
+							<Str sr="arg3" ve="3"/>
+							<Int sr="arg4" val="0"/>
+							<Str sr="arg5" ve="3">#FF000000</Str>
+							<Int sr="arg6" val="0"/>
+							<Int sr="arg7" val="0"/>
+						</RectElement>
+					</TextElement>
+					<TextElement sr="elements2" ve="3">
+						<flags>5</flags>
+						<geom>4,0,85,66,21,21,108,183</geom>
+						<Str sr="arg0" ve="3">Index</Str>
+						<Str sr="arg1" ve="3"/>
+						<Int sr="arg2" val="10"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="3"/>
+						<Int sr="arg7" val="0"/>
+						<Int sr="arg8" val="0"/>
+						<RectElement sr="background">
+							<flags>4</flags>
+							<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+							<Str sr="arg0" ve="3"/>
+							<Int sr="arg1" val="0"/>
+							<Str sr="arg2" ve="3"/>
+							<Str sr="arg3" ve="3"/>
+							<Int sr="arg4" val="0"/>
+							<Str sr="arg5" ve="3">#FF000000</Str>
+							<Int sr="arg6" val="0"/>
+							<Int sr="arg7" val="0"/>
+						</RectElement>
+					</TextElement>
+					<PropertiesElement sr="props">
+						<Int sr="arg0" val="1"/>
+						<Int sr="arg1" val="0"/>
+						<Str sr="arg2" ve="3">#00000000</Str>
+						<Int sr="arg3" val="0"/>
+						<Str sr="arg4" ve="3">Builtin Item Layout</Str>
+						<Str sr="arg5" ve="3"/>
+						<Img sr="arg6" ve="2"/>
+						<Str sr="arg7" ve="3"/>
+					</PropertiesElement>
+				</Scene>
+			</Scene>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ListElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>37</clickTask>
+			<flags>4</flags>
+			<geom>0,1195,89,89,0,0,150,150</geom>
+			<longclickTask>39</longclickTask>
+			<Str sr="arg0" ve="3">Home</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>mw_action_home</nme>
+			</Img>
+		</ButtonElement>
+		<TextElement sr="elements10" ve="3">
+			<clickTask>51</clickTask>
+			<flags>4</flags>
+			<geom>519,1151,133,133,1007,1884,249,250</geom>
+			<Str sr="arg0" ve="3">plus</Str>
+			<Str sr="arg1" ve="3">+</Str>
+			<Int sr="arg2" val="29"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<RectElement sr="elements2">
+			<flags>4</flags>
+			<geom>0,1195,699,89,0,0,1439,159</geom>
+			<Str sr="arg0" ve="3">Navbar</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#B9333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<ButtonElement sr="elements3" ve="3">
+			<clickTask>40</clickTask>
+			<flags>4</flags>
+			<geom>310,1195,89,89,182,0,159,159</geom>
+			<longclickTask>38</longclickTask>
+			<Str sr="arg0" ve="3">Back</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>mw_navigation_chevron_left</nme>
+			</Img>
+		</ButtonElement>
+		<ButtonElement sr="elements4" ve="3">
+			<clickTask>45</clickTask>
+			<flags>4</flags>
+			<geom>77,1195,89,89,157,0,159,159</geom>
+			<longclickTask>42</longclickTask>
+			<Str sr="arg0" ve="3">Sdcard</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>mw_hardware_smartphone</nme>
+			</Img>
+		</ButtonElement>
+		<ButtonElement sr="elements5" ve="3">
+			<clickTask>41</clickTask>
+			<flags>4</flags>
+			<geom>155,1195,89,89,307,0,159,159</geom>
+			<longclickTask>43</longclickTask>
+			<Str sr="arg0" ve="3">DCIM</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>mw_image_photo_size_select_actual</nme>
+			</Img>
+		</ButtonElement>
+		<ButtonElement sr="elements6" ve="3">
+			<clickTask>50</clickTask>
+			<flags>4</flags>
+			<geom>233,1216,96,68,457,0,159,159</geom>
+			<longclickTask>44</longclickTask>
+			<Str sr="arg0" ve="3">APP</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>mw_navigation_apps</nme>
+			</Img>
+		</ButtonElement>
+		<ButtonElement sr="elements7" ve="3">
+			<clickTask>54</clickTask>
+			<geom>446,1011,111,111,920,2084,200,200</geom>
+			<longclickTask>52</longclickTask>
+			<Str sr="arg0" ve="3">New File</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>mw_action_note_add</nme>
+			</Img>
+		</ButtonElement>
+		<ButtonElement sr="elements8" ve="3">
+			<clickTask>55</clickTask>
+			<geom>577,1011,111,111,1240,2084,200,204</geom>
+			<longclickTask>53</longclickTask>
+			<Str sr="arg0" ve="3">New Folder</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>mw_file_create_new_folder</nme>
+			</Img>
+		</ButtonElement>
+		<OvalElement sr="elements9">
+			<flags>4</flags>
+			<geom>524,1163,121,121,482,934,250,250</geom>
+			<Str sr="arg0" ve="3">Plus Oval</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#DD333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FFFF0000</Str>
+		</OvalElement>
+		<PropertiesElement sr="props">
+			<keyTask>49</keyTask>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">File Browser</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<stopEvent>true</stopEvent>
+				<urlMatch>back</urlMatch>
+			</LinkClickFilter>
+			<ListElementItem sr="item0">
+				<label>Close</label>
+				<Action sr="action" ve="7">
+					<code>49</code>
+					<Str sr="arg0" ve="3">File Browser</Str>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_navigation_cancel</nme>
+				</Img>
+			</ListElementItem>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneText Editor">
+		<cdate>1531456703844</cdate>
+		<edate>1563847564511</edate>
+		<gridSize>20</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>1344</heightPort>
+		<nme>Text Editor</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>699</widthPort>
+		<EditTextElement sr="elements0" ve="3">
+			<flags>6</flags>
+			<geom>0,0,699,1332,0,0,1439,2768</geom>
+			<valueselectedTask>46</valueselectedTask>
+			<Str sr="arg0" ve="3">Text</Str>
+			<Str sr="arg1" ve="3">%text</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#00FFFFFF</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<PropertiesElement sr="props">
+			<keyTask>48</keyTask>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Text Editor</Str>
+			<Str sr="arg5" ve="3">%par1</Str>
+			<Img sr="arg6" ve="2">
+				<nme>hd_content_save</nme>
+			</Img>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<stopEvent>true</stopEvent>
+				<urlMatch>back</urlMatch>
+			</LinkClickFilter>
+			<ListElementItem sr="item0">
+				<label>Save</label>
+				<Action sr="action" ve="7">
+					<code>551</code>
+					<Str sr="arg0" ve="3">Save?</Str>
+					<Str sr="arg1" ve="3"/>
+					<Str sr="arg2" ve="3">IconAndTextMenu</Str>
+					<Int sr="arg3" val="30"/>
+					<Int sr="arg4" val="1"/>
+					<ListElementItem sr="item0">
+						<label>Yes</label>
+						<Action sr="action" ve="7">
+							<code>410</code>
+							<Str sr="arg0" ve="3">%par1</Str>
+							<Str sr="arg1" ve="3">%text</Str>
+							<Int sr="arg2" val="0"/>
+							<Int sr="arg3" val="0"/>
+						</Action>
+						<Img sr="icon" ve="2">
+							<nme>mw_navigation_check</nme>
+						</Img>
+					</ListElementItem>
+					<ListElementItem sr="item1">
+						<label>No</label>
+						<Img sr="icon" ve="2">
+							<nme>mw_navigation_close</nme>
+						</Img>
+					</ListElementItem>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_content_save</nme>
+				</Img>
+			</ListElementItem>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneweb">
+		<cdate>1563888114359</cdate>
+		<edate>1563893669513</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>647</heightPort>
+		<nme>web</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>635</widthPort>
+		<WebElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>8,26,626,420,234,226,196,196</geom>
+			<pageloadedTask>20</pageloadedTask>
+			<Str sr="arg0" ve="3">Web页面1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">https://m.baidu.com/</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#80CD1818</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</WebElement>
+	</Scene>
+	<Task sr="task11">
+		<cdate>1563766737733</cdate>
+		<edate>1563847507555</edate>
+		<id>11</id>
+		<nme>返回主页</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>org.autojs.autojs.ui.splash.SplashActivity</appClass>
+				<appPkg>org.autojs.autojs</appPkg>
+				<label>Auto.js</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>297358436</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>/storage/emulated/0/atuojs/返回主页.js</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<path>/storage/emulated/0/atuojs/返回主页.js</path>
+					<path-type>java.lang.String</path-type>
+					<script>&lt;null&gt;</script>
+					<script-type>java.lang.String</script-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.autojs.autojs</Str>
+			<Str sr="arg2" ve="3">org.autojs.autojs.external.tasker.PluginActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task12">
+		<cdate>1393349145098</cdate>
+		<edate>1563793736000</edate>
+		<id>12</id>
+		<nme>天气更新</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>8</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">天气预报</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>8</op>
+					<rhs>2</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">天气更新</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>779</code>
+			<Str sr="arg0" ve="3">%Forecast</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">天气预报</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_collections_cloud</nme>
+		</Img>
+	</Task>
+	<Task sr="task13">
+		<cdate>1376586044961</cdate>
+		<edate>1563888339308</edate>
+		<id>13</id>
+		<nme>天气预报</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>902</code>
+			<label>获取地理编码</label>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="100"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCN</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>596</code>
+			<Str sr="arg0" ve="3">%ccity</Str>
+			<Int sr="arg1" val="19"/>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>118</code>
+			<Str sr="arg0" ve="3">api.map.baidu.com</Str>
+			<Str sr="arg1" ve="3">telematics/v3/weather?location=%ccity&amp;ak=3cFOWNZE16ctG246jguFv8PD</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%HTTPD</Str>
+			<Str sr="arg1" ve="3">(?&lt;=实时：).+?(?=\))</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%rtemp</Str>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%HTTPD</Str>
+			<Str sr="arg1" ve="3">(?&lt;=weather&gt;).+?(?=&lt;/)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%weather</Str>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%HTTPD</Str>
+			<Str sr="arg1" ve="3">(?&lt;=wind&gt;).+?(?=&lt;/)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%wind</Str>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%HTTPD</Str>
+			<Str sr="arg1" ve="3">(?&lt;=temperature&gt;).+?(?=&lt;/)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%temp</Str>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>779</code>
+			<label>清除旧通知</label>
+			<Str sr="arg0" ve="3">%Forecast</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Forecast</Str>
+			<Str sr="arg1" ve="3">%city(1)：%rtemp(1) %weather(1)  %wind(1)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>523</code>
+			<label>通知栏天气预报</label>
+			<Str sr="arg0" ve="3">%city(1)：%rtemp(1) %weather(1)  %wind(1)</Str>
+			<Str sr="arg1" ve="3">明日%temp(2) %weather(2) || 后日%temp(3) %weather(3)</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<nme>mw_image_brightness_5</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+			<ListElementItem sr="item0">
+				<label>更新</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">天气预报</Str>
+					<Int sr="arg1" val="5"/>
+					<Str sr="arg2" ve="3">1</Str>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>cust_transparent</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>退出</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">天气更新</Str>
+					<Int sr="arg1" val="5"/>
+					<Str sr="arg2" ve="3">2</Str>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>cust_transparent</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%temp(1)</Str>
+			<Str sr="arg1" ve="3">~</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">至</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>118</code>
+			<label>反向地理编码</label>
+			<Str sr="arg0" ve="3">api.map.baidu.com</Str>
+			<Str sr="arg1" ve="3">geocoder/v2/?ak=3cFOWNZE16ctG246jguFv8PD&amp;callback=renderReverse&amp;location=%LOCN&amp;output=xml&amp;pois=1</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%temp(2)</Str>
+			<Str sr="arg1" ve="3">~</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">至</Str>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>559</code>
+			<label>语音输出</label>
+			<Str sr="arg0" ve="3">%city(1) 今日气温%temp(1).%weather(1).%wind(1).明日气温%temp(2).%weather(2).%wind(2)</Str>
+			<Str sr="arg1" ve="3">com.xiaomi.mibrain.speech:zho-CHN</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>598</code>
+			<label>读取城市</label>
+			<Str sr="arg0" ve="3">%HTTPD</Str>
+			<Str sr="arg1" ve="3">(?&lt;=city&gt;).+(?=市&lt;/city)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%city</Str>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>118</code>
+			<label>IP定位</label>
+			<Str sr="arg0" ve="3">http://api.map.baidu.com/location/ip?ak=3cFOWNZE16ctG246jguFv8PD&amp;coor=bd09ll</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>129</code>
+			<label>位置解析</label>
+			<Str sr="arg0" ve="3">var h=global('HTTPD');var r = /\\u([\d\w]{4})/gi; h = h.replace(r, function (match, grp) { return String.fromCharCode(parseInt(grp, 16)); } ); h = unescape(h);setGlobal("%Httpd",h);</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>598</code>
+			<label>读取位置</label>
+			<Str sr="arg0" ve="3">%Httpd</Str>
+			<Str sr="arg1" ve="3">(?&lt;=city":").+?(?=市")</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%city</Str>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ccity</Str>
+			<Str sr="arg1" ve="3">%city(1)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_aaa_ext_rain</nme>
+		</Img>
+	</Task>
+	<Task sr="task19">
+		<cdate>1563888499332</cdate>
+		<edate>1563891962704</edate>
+		<id>19</id>
+		<nme>jj</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">web</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task2">
+		<cdate>1563718448216</cdate>
+		<edate>1563782336144</edate>
+		<id>2</id>
+		<nme>静音</nme>
+		<Action sr="act0" ve="7">
+			<code>310</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task20">
+		<cdate>1563889638399</cdate>
+		<edate>1563889638399</edate>
+		<id>20</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">flash("gg")</Str>
+			<Str sr="arg1" ve="3">https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">alert($("input").length)</Str>
+			<Str sr="arg1" ve="3">https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+	</Task>
+	<Task sr="task36">
+		<cdate>1449642487075</cdate>
+		<edate>1563764310581</edate>
+		<id>36</id>
+		<nme>手机亮屏</nme>
+		<stayawake>true</stayawake>
+		<Action sr="act0" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">pm</Str>
+			<Str sr="arg1" ve="3">CONTEXT</Str>
+			<Str sr="arg2" ve="3">getSystemService
+{PowerManager} (String)</Str>
+			<Str sr="arg3" ve="3">power</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">wl</Str>
+			<Str sr="arg1" ve="3">pm</Str>
+			<Str sr="arg2" ve="3">newWakeLock
+{WakeLock} (int, String)</Str>
+			<Str sr="arg3" ve="3">805306394</Str>
+			<Str sr="arg4" ve="3">Tasker</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">wl</Str>
+			<Str sr="arg2" ve="3">acquire
+{} (long)</Str>
+			<Str sr="arg3" ve="3">60000</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">wl</Str>
+			<Str sr="arg2" ve="3">release
+{} ()</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_aaa_ext_bulb</nme>
+		</Img>
+	</Task>
+	<Task sr="task37">
+		<cdate>1531504170287</cdate>
+		<edate>1531504170287</edate>
+		<id>37</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%currentdir</Str>
+			<Str sr="arg1" ve="3">/</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">%currentdir</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">%files</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Listedfiles</Str>
+			<Str sr="arg1" ve="3">%files()</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+	</Task>
+	<Task sr="task38">
+		<cdate>1531504528409</cdate>
+		<edate>1531504528409</edate>
+		<id>38</id>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Back</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task39">
+		<cdate>1531504582180</cdate>
+		<edate>1531504582180</edate>
+		<id>39</id>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Root</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task40">
+		<cdate>1531504777538</cdate>
+		<edate>1531504777538</edate>
+		<id>40</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%back</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%currentdir</Str>
+			<Str sr="arg1" ve="3">%back</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">%back</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">%files</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Listedfiles</Str>
+			<Str sr="arg1" ve="3">%files()</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>342</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">%back</Str>
+			<Str sr="arg2" ve="3">%back</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task41">
+		<cdate>1531506718511</cdate>
+		<edate>1531506718511</edate>
+		<id>41</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%currentdir</Str>
+			<Str sr="arg1" ve="3">/sdcard/DCIM</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">%currentdir</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">%files</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Listedfiles</Str>
+			<Str sr="arg1" ve="3">%files()</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+	</Task>
+	<Task sr="task42">
+		<cdate>1531505808726</cdate>
+		<edate>1531505808726</edate>
+		<id>42</id>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">sdcard</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task43">
+		<cdate>1531506132667</cdate>
+		<edate>1531506132667</edate>
+		<id>43</id>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">DCIM</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task44">
+		<cdate>1531506266168</cdate>
+		<edate>1531506266168</edate>
+		<id>44</id>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">APP</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task45">
+		<cdate>1531506826012</cdate>
+		<edate>1531506826012</edate>
+		<id>45</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">/sdcard</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">%files</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Listedfiles</Str>
+			<Str sr="arg1" ve="3">%files()</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+	</Task>
+	<Task sr="task46">
+		<cdate>1531456922971</cdate>
+		<edate>1531456922971</edate>
+		<id>46</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+	</Task>
+	<Task sr="task47">
+		<cdate>1531456965281</cdate>
+		<edate>1563780567658</edate>
+		<id>47</id>
+		<nme>Text Editor</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>417</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">%text</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Text Editor</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_action_description</nme>
+		</Img>
+	</Task>
+	<Task sr="task48">
+		<cdate>1531471700740</cdate>
+		<edate>1531471700740</edate>
+		<id>48</id>
+		<pri>9</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Text Editor</Str>
+		</Action>
+	</Task>
+	<Task sr="task49">
+		<cdate>1531823153227</cdate>
+		<edate>1531823153227</edate>
+		<id>49</id>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">File Browser</Str>
+		</Action>
+	</Task>
+	<Task sr="task50">
+		<cdate>1531549338160</cdate>
+		<edate>1531549338160</edate>
+		<id>50</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>226</code>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">File Browser</Str>
+		</Action>
+	</Task>
+	<Task sr="task51">
+		<cdate>1531842682934</cdate>
+		<edate>1531842682934</edate>
+		<id>51</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">File Browser</Str>
+			<Str sr="arg1" ve="3">New File</Str>
+			<Int sr="arg2" val="2"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">File Browser</Str>
+			<Str sr="arg1" ve="3">New Folder</Str>
+			<Int sr="arg2" val="2"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">File Browser</Str>
+			<Str sr="arg1" ve="3">New File</Str>
+			<Int sr="arg2" val="3"/>
+			<Str sr="arg3" ve="3">%fileshow</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>67</code>
+			<Str sr="arg0" ve="3">File Browser</Str>
+			<Str sr="arg1" ve="3">plus</Str>
+			<Int sr="arg2" val="9"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%fileshow</lhs>
+					<op>0</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>67</code>
+			<Str sr="arg0" ve="3">File Browser</Str>
+			<Str sr="arg1" ve="3">plus</Str>
+			<Int sr="arg2" val="11"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%fileshow</lhs>
+					<op>0</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task52">
+		<cdate>1531905220932</cdate>
+		<edate>1531905220932</edate>
+		<id>52</id>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">New File</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task53">
+		<cdate>1531905249187</cdate>
+		<edate>1531905249187</edate>
+		<id>53</id>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">New Folder</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task54">
+		<cdate>1531906612002</cdate>
+		<edate>1531906612002</edate>
+		<id>54</id>
+		<Action sr="act0" ve="7">
+			<code>595</code>
+			<Str sr="arg0" ve="3">txt File Name</Str>
+			<Str sr="arg1" ve="3">%filename</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">Variable Query</Str>
+			<Int sr="arg6" val="40"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">%currentdir/%filename.txt</Str>
+			<Str sr="arg1" ve="3">.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">%currentdir</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">%files</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Listedfiles</Str>
+			<Str sr="arg1" ve="3">%files()</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Text Editor</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%currentdir/%filename.txt</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task55">
+		<cdate>1531906796528</cdate>
+		<edate>1531906796528</edate>
+		<id>55</id>
+		<Action sr="act0" ve="7">
+			<code>595</code>
+			<Str sr="arg0" ve="3">Folder Name</Str>
+			<Str sr="arg1" ve="3">%foldername</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">Variable Query</Str>
+			<Int sr="arg6" val="40"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>409</code>
+			<Str sr="arg0" ve="3">%currentdir/%foldername</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">%currentdir</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">%files</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Listedfiles</Str>
+			<Str sr="arg1" ve="3">%files()</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+	</Task>
+	<Task sr="task56">
+		<cdate>1531499601787</cdate>
+		<edate>1531499601787</edate>
+		<id>56</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>342</code>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">%tap_label</Str>
+			<Str sr="arg2" ve="3">%type</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%currentdir</Str>
+			<Str sr="arg1" ve="3">%tap_label</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%type</lhs>
+					<op>0</op>
+					<rhs>dir</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">%tap_label</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">%files</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Listedfiles</Str>
+			<Str sr="arg1" ve="3">%files()</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>342</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">%tap_label</Str>
+			<Str sr="arg2" ve="3">%back</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%type</lhs>
+					<op>0</op>
+					<rhs>file</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">File Browser</Str>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Text Editor</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%tap_label</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tap_label</lhs>
+					<op>4</op>
+					<rhs>.txt</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>102</code>
+			<Str sr="arg0" ve="3">%tap_label</Str>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task57">
+		<cdate>1531500171048</cdate>
+		<edate>1563847704604</edate>
+		<id>57</id>
+		<nme>Browser</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%currentdir</Str>
+			<Str sr="arg1" ve="3">/sdcard</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">%currentdir</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%files</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Listedfiles</Str>
+			<Str sr="arg1" ve="3">%files()</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">File Browser</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_file_folder</nme>
+		</Img>
+	</Task>
+	<Task sr="task6">
+		<cdate>1375887191525</cdate>
+		<edate>1563780526660</edate>
+		<id>6</id>
+		<nme>整点报时</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%TIME</Str>
+			<Str sr="arg1" ve="3">.</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>597</code>
+			<Str sr="arg0" ve="3">%TIME1</Str>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%TIME1</lhs>
+					<op>4</op>
+					<rhs>0\d</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TIME1</Str>
+			<Str sr="arg1" ve="3">点整</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">现在时间%TIME1</Str>
+			<Str sr="arg1" ve="3">com.xiaomi.mibrain.speech:eng-GBR</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_device_access_time</nme>
+		</Img>
+	</Task>
+	<Task sr="task68">
+		<cdate>1563699371856</cdate>
+		<edate>1563700120419</edate>
+		<id>68</id>
+		<nme>wakeUpDevice</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">pm</Str>
+			<Str sr="arg1" ve="3">CONTEXT</Str>
+			<Str sr="arg2" ve="3">getSystemService
+{PowerManager} (String)</Str>
+			<Str sr="arg3" ve="3">power</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">wl</Str>
+			<Str sr="arg1" ve="3">pm</Str>
+			<Str sr="arg2" ve="3">newWakeLock
+{WakeLock} (int, String)</Str>
+			<Str sr="arg3" ve="3">805306394</Str>
+			<Str sr="arg4" ve="3">Tasker</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">wl</Str>
+			<Str sr="arg2" ve="3">acquire
+{} ()</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">wl</Str>
+			<Str sr="arg2" ve="3">release
+{} ()</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task8">
+		<cdate>1563759954001</cdate>
+		<edate>1563847504749</edate>
+		<id>8</id>
+		<nme>电信签到</nme>
+		<Action sr="act0" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>org.autojs.autojs.ui.splash.SplashActivity</appClass>
+				<appPkg>org.autojs.autojs</appPkg>
+				<label>Auto.js</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>297358436</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>/storage/emulated/0/atuojs/解锁并电信签到.js</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<path>/storage/emulated/0/atuojs/解锁并电信签到.js</path>
+					<path-type>java.lang.String</path-type>
+					<script>&lt;null&gt;</script>
+					<script-type>java.lang.String</script-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.autojs.autojs</Str>
+			<Str sr="arg2" ve="3">org.autojs.autojs.external.tasker.PluginActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<cls>com.ct.client.SplashActivity</cls>
+			<pkg>com.ct.client</pkg>
+		</Img>
+	</Task>
+	<Task sr="task9">
+		<cdate>1563746764368</cdate>
+		<edate>1563847502342</edate>
+		<id>9</id>
+		<nme>易信签到</nme>
+		<Action sr="act0" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>org.autojs.autojs.ui.splash.SplashActivity</appClass>
+				<appPkg>org.autojs.autojs</appPkg>
+				<label>Auto.js</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>297358436</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>/storage/emulated/0/atuojs/解锁并易信签到.js</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<path>/storage/emulated/0/atuojs/解锁并易信签到.js</path>
+					<path-type>java.lang.String</path-type>
+					<script>&lt;null&gt;</script>
+					<script-type>java.lang.String</script-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.autojs.autojs</Str>
+			<Str sr="arg2" ve="3">org.autojs.autojs.external.tasker.PluginActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<cls>im.yixin.activity.WelcomeActivity</cls>
+			<pkg>im.yixin</pkg>
+		</Img>
+	</Task>
+</TaskerData>
