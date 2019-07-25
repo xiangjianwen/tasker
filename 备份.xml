@@ -2,16 +2,16 @@
 	<dmetric>720.0,1344.0</dmetric>
 	<Profile sr="prof10" ve="2">
 		<cdate>1563753826008</cdate>
-		<edate>1563784445611</edate>
+		<edate>1563908171861</edate>
 		<flags>2</flags>
 		<id>10</id>
 		<mid0>36</mid0>
 		<mid1>9</mid1>
 		<nme>签到易信</nme>
 		<Time sr="con0">
-			<fh>0</fh>
+			<fh>3</fh>
 			<fm>8</fm>
-			<th>0</th>
+			<th>3</th>
 			<tm>8</tm>
 		</Time>
 	</Profile>
@@ -48,17 +48,48 @@
 	</Profile>
 	<Profile sr="prof16" ve="2">
 		<cdate>1563766930885</cdate>
-		<edate>1563784747152</edate>
+		<edate>1563908233052</edate>
 		<flags>2</flags>
 		<id>16</id>
 		<mid0>36</mid0>
 		<mid1>11</mid1>
 		<nme>返回键</nme>
 		<Time sr="con0">
-			<fh>0</fh>
-			<fm>18</fm>
-			<th>0</th>
-			<tm>18</tm>
+			<fh>3</fh>
+			<fm>20</fm>
+			<th>3</th>
+			<tm>20</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof21" ve="2">
+		<cdate>1563919422116</cdate>
+		<edate>1563922803598</edate>
+		<flags>2</flags>
+		<id>21</id>
+		<mid0>17</mid0>
+		<mid1>18</mid1>
+		<nme>'Bluetooth is on but not connected</nme>
+		<State sr="con0" ve="2">
+			<code>2</code>
+			<Int sr="arg0" val="1"/>
+		</State>
+		<State sr="con1" ve="2">
+			<code>3</code>
+			<pin>true</pin>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3"/>
+		</State>
+	</Profile>
+	<Profile sr="prof25" ve="2">
+		<cdate>1563919687697</cdate>
+		<edate>1563920056602</edate>
+		<flags>2</flags>
+		<id>25</id>
+		<mid0>24</mid0>
+		<nme>'The time of bluetooth shutdown</nme>
+		<Time sr="con0">
+			<fromvar>%TimeOfBluetoothShutdown</fromvar>
+			<tovar>%TimeOfBluetoothShutdown</tovar>
 		</Time>
 	</Profile>
 	<Profile sr="prof3" ve="2">
@@ -75,16 +106,17 @@
 	</Profile>
 	<Profile sr="prof4" ve="2">
 		<cdate>1563759882867</cdate>
-		<edate>1563784465645</edate>
+		<edate>1563908210776</edate>
 		<flags>2</flags>
 		<id>4</id>
+		<limit>true</limit>
 		<mid0>36</mid0>
 		<mid1>8</mid1>
 		<nme>电信签到</nme>
 		<Time sr="con0">
-			<fh>0</fh>
+			<fh>3</fh>
 			<fm>15</fm>
-			<th>0</th>
+			<th>3</th>
 			<tm>15</tm>
 		</Time>
 	</Profile>
@@ -106,7 +138,6 @@
 	<Profile sr="prof7" ve="2">
 		<cdate>1563683080815</cdate>
 		<edate>1563695799616</edate>
-		<flags>2</flags>
 		<id>7</id>
 		<mid0>6</mid0>
 		<nme>整点报时</nme>
@@ -121,11 +152,11 @@
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1563683020577</cdate>
-		<mdate>1563888559615</mdate>
+		<mdate>1563934959648</mdate>
 		<name>基底</name>
-		<pids>7,3,5,10,4,16</pids>
-		<scenes>web</scenes>
-		<tids>36,6,68,2,9,8,11,19</tids>
+		<pids>7,3,5,10,4,16,21,25</pids>
+		<scenes>web,Popup Task Buttons</scenes>
+		<tids>36,6,68,2,9,8,11,19,27</tids>
 		<Img sr="icon" ve="2">
 			<nme>mw_action_home</nme>
 		</Img>
@@ -445,6 +476,89 @@
 			</ListElementItem>
 		</PropertiesElement>
 	</Scene>
+	<Scene sr="scenePopup Task Buttons">
+		<cdate>1563934959647</cdate>
+		<edate>1563935434124</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>450</heightPort>
+		<nme>Popup Task Buttons</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>562</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>5</flags>
+			<geom>10,10,541,321,10,10,541,321</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">文字</Str>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8"/>
+		</TextElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>-936</clickTask>
+			<flags>5</flags>
+			<geom>10,331,172,108,10,331,172,108</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>-936</clickTask>
+			<flags>5</flags>
+			<geom>193,331,172,108,193,331,172,108</geom>
+			<Str sr="arg0" ve="3">Button2</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements3" ve="3">
+			<clickTask>-936</clickTask>
+			<flags>5</flags>
+			<geom>376,331,172,108,376,331,172,108</geom>
+			<Str sr="arg0" ve="3">Button3</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<RectElement sr="elements4">
+			<flags>4</flags>
+			<geom>0,321,562,4,0,321,562,4</geom>
+			<Str sr="arg0" ve="3">Footer</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">???</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
 	<Scene sr="sceneText Editor">
 		<cdate>1531456703844</cdate>
 		<edate>1563847564511</edate>
@@ -533,16 +647,15 @@
 	</Scene>
 	<Scene sr="sceneweb">
 		<cdate>1563888114359</cdate>
-		<edate>1563893669513</edate>
+		<edate>1563938355539</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>647</heightPort>
 		<nme>web</nme>
 		<widthLand>-1</widthLand>
 		<widthPort>635</widthPort>
 		<WebElement sr="elements0" ve="2">
-			<flags>4</flags>
+			<flags>12</flags>
 			<geom>8,26,626,420,234,226,196,196</geom>
-			<pageloadedTask>20</pageloadedTask>
 			<Str sr="arg0" ve="3">Web页面1</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">https://m.baidu.com/</Str>
@@ -942,9 +1055,36 @@
 			<nme>hl_aaa_ext_rain</nme>
 		</Img>
 	</Task>
+	<Task sr="task17">
+		<cdate>1563919422102</cdate>
+		<edate>1563920361909</edate>
+		<id>17</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>来自https://www.jianshu.com/p/3ad9d0f58bde</label>
+			<Str sr="arg0" ve="3">%TimeOfBluetoothShutdown</Str>
+			<Str sr="arg1" ve="3">%TIMES+3*60</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+	</Task>
+	<Task sr="task18">
+		<cdate>1563919422102</cdate>
+		<edate>1563919508144</edate>
+		<id>18</id>
+		<pri>1006</pri>
+		<Action sr="act0" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%TimeOfBluetoothShutdown</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
 	<Task sr="task19">
 		<cdate>1563888499332</cdate>
-		<edate>1563891962704</edate>
+		<edate>1563938261355</edate>
 		<id>19</id>
 		<nme>jj</nme>
 		<pri>100</pri>
@@ -970,24 +1110,174 @@
 			<Int sr="arg0" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task20">
-		<cdate>1563889638399</cdate>
-		<edate>1563889638399</edate>
-		<id>20</id>
-		<pri>102</pri>
+	<Task sr="task24">
+		<cdate>1563919687687</cdate>
+		<edate>1563920056601</edate>
+		<id>24</id>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">flash("gg")</Str>
-			<Str sr="arg1" ve="3">https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js</Str>
+			<code>35</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="45"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%TIMES-%TimeOfBluetoothShutdown</lhs>
+					<op>7</op>
+					<rhs>-1</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">alert($("input").length)</Str>
-			<Str sr="arg1" ve="3">https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js</Str>
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%TimeOfBluetoothShutdown</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>294</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task27">
+		<cdate>1521875612503</cdate>
+		<edate>1563925047540</edate>
+		<id>27</id>
+		<nme>唤醒</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>1721487814</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.securetask.extra.INT_VERSION_CODE>78</com.balda.securetask.extra.INT_VERSION_CODE>
+					<com.balda.securetask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.securetask.extra.INT_VERSION_CODE-type>
+					<com.balda.securetask.extra.OPERATION>11</com.balda.securetask.extra.OPERATION>
+					<com.balda.securetask.extra.OPERATION-type>java.lang.Integer</com.balda.securetask.extra.OPERATION-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Wake</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.securetask</Str>
+			<Str sr="arg2" ve="3">com.balda.securetask.ui.FireWakeScreenActivity</Str>
+			<Int sr="arg3" val="5"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">input tap 800 1050</Str>
+			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>2077699985</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.securetask.extra.INT_VERSION_CODE>78</com.balda.securetask.extra.INT_VERSION_CODE>
+					<com.balda.securetask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.securetask.extra.INT_VERSION_CODE-type>
+					<com.balda.securetask.extra.OPERATION>9</com.balda.securetask.extra.OPERATION>
+					<com.balda.securetask.extra.OPERATION-type>java.lang.Integer</com.balda.securetask.extra.OPERATION-type>
+					<com.balda.securetask.extra.TYPE>0</com.balda.securetask.extra.TYPE>
+					<com.balda.securetask.extra.TYPE-type>java.lang.Integer</com.balda.securetask.extra.TYPE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Get info</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%stscreenlocked
+Screen currently locked
+True or false&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%stkeyguardshown
+Keyguard shown
+True if currently shown false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%stkeyguardsecure
+Keyguard secure
+Keyguard is secure with pin/password/pattern&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.securetask</Str>
+			<Str sr="arg2" ve="3">com.balda.securetask.ui.FireScreenLockActivity</Str>
+			<Int sr="arg3" val="30"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%stscreenlocked</lhs>
+					<op>0</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">input swipe 520 1314 800 900</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">input tap 800 1050</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">input tap 800 1050</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">input tap 800 1050</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
 		</Action>
 	</Task>
 	<Task sr="task36">
@@ -1631,10 +1921,10 @@
 	</Task>
 	<Task sr="task6">
 		<cdate>1375887191525</cdate>
-		<edate>1563780526660</edate>
+		<edate>1563940969792</edate>
 		<id>6</id>
 		<nme>整点报时</nme>
-		<pri>6</pri>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%TIME</Str>
@@ -1784,9 +2074,10 @@
 	</Task>
 	<Task sr="task9">
 		<cdate>1563746764368</cdate>
-		<edate>1563847502342</edate>
+		<edate>1563908159556</edate>
 		<id>9</id>
 		<nme>易信签到</nme>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>20</code>
 			<App sr="arg0">
